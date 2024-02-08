@@ -1,0 +1,2 @@
+# carmacoin.ru
+Carmacoin project

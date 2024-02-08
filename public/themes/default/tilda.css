@@ -1,0 +1,156 @@
+html {
+    font-size: 14px;
+}
+
+body {
+    font-family: var(--font-family);
+    font-weight: normal;
+    background: var(--surface-ground);
+    color: var(--text-color);
+    padding: 1rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.card {
+    background: var(--surface-card);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+p {
+    line-height: 1.75;
+}
+
+
+
+body{
+  font-family: var(--font-family);
+  color: var(--text-color);
+}
+.grid > .col, .grid > [class*="col"]{
+  box-sizing: border-box;
+}
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -1rem;
+  margin-left: -1rem;
+  margin-top: -1rem;
+}
+{
+.xl\:col-3{
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 25%;
+  }
+}
+
+.card{
+  background: var(--surface-card);
+  border: 1px solid var(--surface-border);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: var(--card-shadow);
+  border-radius: 12px;
+}
+.m-2{
+  margin: .5rem !important;
+}
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -1rem;
+  margin-left: -1rem;
+  margin-top: -1rem;
+}
+.field.grid, .formgrid.grid{
+  margin-top: 0;
+}
+
+.col{
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 1rem;
+}
+.field{
+  margin-bottom: 1rem;
+}
+.field > label{
+  display: inline-block;
+  margin-bottom: .5rem;
+}
+.field.grid .col-fixed, .formgrid.grid .col-fixed, .field.grid .col, .formgrid.grid .col, .field.grid .col-1, .formgrid.grid .col-1, .field.grid .col-2, .formgrid.grid .col-2, .field.grid .col-3, .formgrid.grid .col-3, .field.grid .col-4, .formgrid.grid .col-4, .field.grid .col-5, .formgrid.grid .col-5, .field.grid .col-6, .formgrid.grid .col-6, .field.grid .col-7, .formgrid.grid .col-7, .field.grid .col-8, .formgrid.grid .col-8, .field.grid .col-9, .formgrid.grid .col-9, .field.grid .col-10, .formgrid.grid .col-10, .field.grid .col-11, .formgrid.grid .col-11, .field.grid .col-12, .formgrid.grid .col-12
+{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.w-full{
+  width: 100% !important;
+}
+.p-component{
+  display: inline-flex;
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-feature-settings: var(--font-feature-settings, normal);
+  font-size: 1rem;
+  font-weight: normal;	
+}
+.p-dropdown{
+  background: #ffffff;
+  border: 1px solid #ced4da;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.p-inputtext{
+  margin: 0;
+  color: #495057;
+  background: #ffffff;
+  padding: 0.75rem 0.75rem;
+  border: 1px solid #ced4da;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+  appearance: none;
+  border-radius: 6px;
+  font-feature-settings: var(--font-feature-settings, normal);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;  
+}
+.p-dropdown-label{
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  flex: 1 1 auto;
+  width: 1%;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+.p-dropdown-trigger{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.p-dropdown .p-dropdown-label{
+  background: transparent;
+  border: 0 none;
+}
+.p-dropdown .p-dropdown-label.p-placeholder{
+  color: #6c757d;
+}
+.p-dropdown .p-dropdown-trigger{
+  background: transparent;
+  color: #6c757d;
+  width: 3rem;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.p-icon{
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+}

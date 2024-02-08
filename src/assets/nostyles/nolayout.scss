@@ -1,0 +1,134 @@
+@import './_variables';
+@import './sass/_layout';
+@import './_overrides';
+
+th.p-filter-column .p-column-filter-element{
+  max-width: 12rem;
+}
+
+.layout-topbar{
+  z-index: 1000;
+}
+#topbar-menu{
+  transform-origin: center bottom 0px;
+  top: 4rem;
+  left: 2rem;
+  min-width: 83px;
+  z-index: 1000;
+  position: fixed;
+  background-color: var(--surface-overlay);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.02), 0px 0px 2px rgba(0, 0, 0, 0.05), 0px 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.field {
+    margin-bottom: 2px;
+}
+.p-inputtext:enabled:focus {
+    outline: 0 none;
+    outline-offset: 0;
+    box-shadow: 0 0 0 1px #ccc !important;
+    border-color: #ccc !important;
+}
+.mbr .p-datatable .p-datatable-tbody > tr > td{
+  border: none !important
+}
+.p-datatable-customers thead{
+  display:none
+}
+.p-dialog .p-dialog-content{
+  padding: 0 !important;
+}
+.p-dialog .p-dialog-content .card{
+  width: 100%;
+  padding-top: .5rem !important;
+  padding-bottom: 0 !important;
+  margin-bottom: 0;
+}
+.p-dialog .p-dialog-header{
+  padding: 1.5rem 1rem 0;
+}
+.p-dialog .p-dialog-content{
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.p-password input{
+  width: 100% !important;
+}
+.p-dialog-footer{
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  min-height: 10px;
+  
+}
+.card form{
+  margin-bottom: 1rem;
+}
+.grid.free-themes h5{
+  margin: 6px 0;
+}
+
+.p-toolbar{
+  background: #fff !important;
+  border: 1px solid transparent !important;
+}
+.p-sidebar .p-sidebar-header .p-sidebar-close:enabled, .p-sidebar .p-sidebar-header .p-sidebar-icon:enabled{
+  border-color: transparent !important;
+  border: 0 !important;
+  box-shadow: unset !important;
+  transition: background-color 0.2s, color 0.2s, box-shadow 0s;
+}
+.p-dropdown {
+  background: #ffffff;
+  border: 1px solid #ccc;
+  box-shadow: unset !important;	
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0s;
+  border-radius: 6px;
+}
+.p-inputwrapper-focus .p-password-panel.p-component, .p-password-panel.p-component{
+  display:none !important;
+}
+.p-card.modal-main .p-card-content{
+  padding: 0 !important;
+}
+.p-card.modal-main .col.field{
+  margin-bottom: .5rem !important;
+}
+.p-dialog .p-dialog-content {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;	
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.mbr-sto{
+	height: 80vh !important;
+	padding: 0 10vw;
+}
+.mbr-toolbar{
+	padding: .5rem auto !important
+}
+.p-tabview .p-tabview-panels{
+	padding:0 !important;
+}
+
+.p-picklist-buttons.p-picklist-target-controls{display:none !important;}
+.p-picklist-buttons.p-picklist-source-controls{display:none !important;}
+.p-multiselect-panel.p-component{
+  max-width: 12vw;
+}
+.login-modal .p-dialog-content{
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+.p-tabview.tabview-custom{
+	min-height: 60vh;
+}
+.p-select{
+	max-width:11vw !important;
+}
+.p-dialog-content {
+  padding: 0 !important;
+  overflow-x: hidden;
+}
+/*@import 'inline.css';*/
